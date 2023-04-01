@@ -1,0 +1,75 @@
+/* Lists of stories */
+
+.stories-list {
+  margin: 20px 5px;
+}
+
+.stories-list > li {
+  color: gray;
+  font-size: 0.8rem;
+  margin: 10px 0;
+}
+
+#stories-loading-msg {
+  font-weight: bold;
+  font-size: 150%;
+  margin: 20px 30px;
+}
+
+
+/* Individual stories */
+
+.story-link {
+  color: black;
+  font-size: 0.85rem;
+  font-weight: normal;
+  margin: 18px 0;
+}
+
+.story-link:hover {
+  text-decoration: none;
+}
+
+.story-author {
+  color: #509237;
+  font-size: 0.85rem;
+}
+
+.story-user {
+  display: block;
+  color: #f4b75d;
+  font-size: 0.85rem;
+}
+
+.story-favorite {
+  visibility:hidden;
+  font-size: 0.85rem;
+  cursor:pointer;
+  line-height: 1rem;
+  margin: 0;
+  padding: 0;
+}
+.story-favorite:before {
+ content: "\2606";
+ position: absolute;
+ visibility:visible;
+}
+.story-favorite:checked:before {
+ content: "\2605";
+ position: absolute;
+ color: black;
+}
+
+#my-stories-list li{
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.story-remove-icon:hover {
+  color: orange;
+}
+
+.stories-forms-container {
+  /* styles for submit form section */
+  border-bottom: 2px solid lightgray;
+}
