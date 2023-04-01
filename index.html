@@ -58,16 +58,15 @@
     <h4>Add new Story</h4>
     <div class="newStory-input">
       <label for="newStory-title">Title</label>
-      <input id="newStory-title" type="text">
+      <input id="newStory-title" type="text" placeholder="story title">
     </div>
     <div class="newStory-input">
       <label for="newStory-author">Author</label>
-      <input id="newStory-author" type="text" autocomplete="current-user">
+      <input id="newStory-author" type="text" autocomplete="current-user" placeholder="story url">
     </div>
     <div class="newStory-input">
       <label for="newStory-url">URL</label>
-      <input id="newStory-url" type="url" placeholder="http://example.com"
-      pattern="http://.*">
+      <input id="newStory-url" required type="url" placeholder="http://www.example.com">
     </div>
     <button type="submit">submit</button>
   </form>
